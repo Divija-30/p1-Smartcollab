@@ -1,0 +1,34 @@
+/* Responsive CSS */
+@media (max-width: 768px) {
+    .dashboard .card {
+      width: calc(50% - 20px);
+    }
+  
+    .chat-container {
+      height: 400px;
+    }
+  
+    .dashboard .card {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .dashboard .card {
+      width: 100%;
+    }
+  
+    .footer {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,43 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #1c1c1c;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00bfff;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 25px;
+}
